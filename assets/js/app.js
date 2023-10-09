@@ -2,6 +2,7 @@
 
 $('.slick').slick({
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 300,
     dots: true,
@@ -40,6 +41,7 @@ $('.slick').slick({
 
 $('.slick2').slick({
     slidesToShow: 2,
+    arrows: false,
     slidesToScroll: 1,
     Infinity: true,
     autoplaySpeed: 1000,
@@ -56,13 +58,6 @@ $('.slick2').slick({
         },
         {
             breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
