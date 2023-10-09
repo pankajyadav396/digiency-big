@@ -60,11 +60,11 @@
         font-weight: var(--fw-500) !important;
     }
 
-    .--fs-2lg {
+    .fs-2lg {
         font-size: var(--fs-lg) !important;
     }
 
-    .--fs-lg {
+    .fs-lg {
         font-size: var(--fs-3md) !important;
     }
 }

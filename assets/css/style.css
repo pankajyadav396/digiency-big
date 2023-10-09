@@ -48,27 +48,27 @@
 
 /*font-size*/
 
-.--fs-sm {
+.fs-sm {
     font-size: var(--fs-sm);
 }
 
-.--fs-3md {
+.fs-3md {
     font-size: var(--fs-3md);
 }
 
-.--fs-lg {
+.fs-lg {
     font-size: var(--fs-lg);
 }
 
-.--fs-md {
+.fs-md {
     font-size: var(--fs-md)
 }
 
-.--fs-2md {
+.fs-2md {
     font-size: var(--fs-2md);
 }
 
-.--fs-2lg {
+.fs-2lg {
     font-size: var(--fs-2lg);
 }
 
@@ -510,7 +510,7 @@ textarea {
 }
 
 .design {
-    color:var(--color-white);
+    color: var(--color-white);
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
