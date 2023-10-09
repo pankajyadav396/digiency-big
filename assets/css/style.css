@@ -37,6 +37,7 @@
 
 
     /*color*/
+    --color-black: #000;
     --color-black-1: #373737;
     --color-black-2: #7b7b7b;
     --color-orange: #FF5300;
@@ -193,19 +194,19 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px var(--color-black-2);
     border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: red;
+    background: var(--color-orange);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+    background: var(--color-orange);
 }
 
 .contact-btn:hover {
@@ -230,7 +231,7 @@
 }
 
 .icon-box:hover {
-    background-color: #FF5300;
+    background-color: var(--color-orange);
 }
 
 .icon-box:hover svg path {
@@ -238,7 +239,7 @@
 }
 
 .third-section-card {
-    background: var(--White, #FFF);
+    background: var(--color-white);
     cursor: pointer;
     transition: all .2s;
     padding: 35px 33px 31px 33px;
@@ -256,7 +257,7 @@
     cursor: pointer;
     transition: all .3s;
     flex-shrink: 0;
-    background-color: var(--Orange, #FF5300);
+    background-color: var(--color-orange);
 }
 
 .sphere:hover {
@@ -270,7 +271,7 @@
     transition: all .3s;
     border-radius: 50%;
     cursor: pointer;
-    background-color: var(--gray-paragraph, #7B7B7B);
+    background-color: var(--color-black-2);
 }
 
 .sphere2:hover {
@@ -297,8 +298,7 @@
     flex-shrink: 0;
     transition: all .3s;
     cursor: pointer;
-    background-color: var(--Black, #373737);
-
+    background-color: var(--color-black-3);
 }
 
 .p-unset {
@@ -373,7 +373,7 @@ textarea {
 }
 
 .font1 {
-    color: var(--gray-paragraph, #7B7B7B);
+    color: var(--color-black-2);
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
@@ -444,7 +444,7 @@ textarea {
 }
 
 .projects {
-    color: var(--gray-paragraph, #7B7B7B);
+    color: var(--color-black-2);
 
     /* H5-20px */
     font-family: Work Sans;
@@ -457,7 +457,7 @@ textarea {
 }
 
 .projects:hover {
-    color: #FF5300;
+    color: var(--color-orange);
 }
 
 .pt-120 {
@@ -499,7 +499,7 @@ textarea {
 }
 
 .latest {
-    color: var(--White, #FFF);
+    color: var(--color-white);
     /* H4-25px */
     font-family: Work Sans;
     font-size: 25px;
@@ -510,14 +510,12 @@ textarea {
 }
 
 .design {
-    color: var(--White, #FFF);
-    /* H6-16px (paragraph) */
+    color:var(--color-white);
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150.6%;
-    /* 24.096px */
 }
 
 .sec-six {
@@ -581,10 +579,10 @@ textarea {
     width: 15px;
     height: 20px;
     border-radius: 50%;
-    background-color: black;
+    background-color: var(--color-black);
     text-align: center;
     opacity: .25;
-    color: black;
+    color: var(--color-black);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -594,7 +592,7 @@ textarea {
 }
 
 .Graphic {
-    color: var(--Orange, #FF5300);
+    color: var(--color-orange);
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
@@ -602,7 +600,7 @@ textarea {
 }
 
 .Stellar {
-    color: var(--Black, #373737);
+    color: var(--color-black-1);
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
@@ -611,7 +609,7 @@ textarea {
 }
 
 .Cristofer {
-    color: var(--Black, #373737);
+    color: var(--color-black-1);
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
@@ -619,7 +617,7 @@ textarea {
 }
 
 .January {
-    color: var(--gray-paragraph, #7B7B7B);
+    color: var(--color-black-2);
     font-family: var(--ff-work);
     font-size: 12.8px;
     font-style: normal;
@@ -647,7 +645,7 @@ textarea {
 }
 
 .slick2 .slick-dots li.slick-active button:before {
-    color: black;
+    color: var(--color-black);
     width: 50px;
     border-radius: 25px;
     background: black;
@@ -655,7 +653,7 @@ textarea {
 
 
 .slick2-card {
-    background: var(--White, #FFF);
+    background: var(--color-white);
     padding: 25px;
     max-width: 570px;
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
@@ -740,7 +738,7 @@ textarea {
 .send-btn {
     border-radius: 5px;
     padding: 13px 25px;
-    background-color: #FF5300;
+    background-color: var(--color-orange);
     border: none;
     /* Effect-1 */
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
@@ -758,7 +756,7 @@ textarea {
 }
 
 .footer {
-    background: #373737;
+    background: var(--color-black-3);
 }
 
 .gap-13 {
@@ -766,8 +764,8 @@ textarea {
 }
 
 .email {
-    color: #7b7b7b;
-    background-color: #373737;
+    color: var(--color-black-2);
+    background-color: var(--color-black-1);
     border: none;
 }
 
